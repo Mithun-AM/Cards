@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400..800&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Syne", sans-serif;
+}
+body{
+    background-color: #e7e7e7;
+}
+.container{
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    margin-inline: 1.5rem;
+    padding-block: 7rem;
+}
+.card-article{
+    position: relative;
+    align-self: flex-end;
+    display: flex;
+    justify-content: center;
+}
+.card-profile img,
+.card-mask img{
+    object-fit: cover;
+    width: 100px;
+    height: 100px; 
+    background-color: grey;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.card-profile img,
+.card-mask img{
+    border: 4px solid #fff;
+    z-index: 5;
+    transition: opacity .4s ,transform .4s;
+}
+.card-profile{
+    z-index: 10;
+}
+
+.card-tooltip{
+    position: absolute;
+    bottom: -2rem;
+    padding-bottom: 5rem;
+    transition: opacity .4s, bottom .4s cubic-bezier(.6,-.5,.3,1.5);
+    pointer-events: none;
+    opacity: 0;
+}
+.card-content{
+    position: relative;
+    /* max-width: 20rem; */
+    width: calc(100vw - 3rem);
+    background-color: #fff;
+    box-shadow: 0 16px 32px hsla(230,50%,20%,.1);
+    padding: 2rem 1.5rem;
+    border-radius: 1.5rem;
+}
+.card-content::after{
+    content: '';
+    width: 32px;
+    height: 32px;
+    background-color: white;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -.75rem;
+    margin: auto;
+    border-radius: .25rem;
+    rotate: 45deg;
+
+}
+.card-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #e7e7e7;
+    padding-bottom: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+.card-header span{
+    font-weight: 650;
+}
+.card-social{
+    display: flex;
+    column-gap: .75rem;
+}
+.card-social a{
+    font-size: 1rem;
+    color: black;
+}
+.card-image{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    margin: 0 auto 1rem;
+}
+.card-status{
+    width: 12px;
+    height: 12px;
+    background-color: green;
+    position: absolute;
+    top: .5rem;
+    right: .75rem;
+    border-radius:50% ;
+    border: 2px solid #fff;
+}
+
+.card-data{
+    text-align: center;
+}
+.card-name{
+    font-size: 1.5rem;
+    color: black;
+    font-weight: 600;
+    margin-bottom: .25rem;
+}
+.card-profession{
+    font-size: 0.8rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+}
+.card-button{
+    text-decoration: none;
+    display: inline-flex;
+    column-gap: .5rem;
+    color: blue;
+    font-weight: 500;
+}
+
+.card-button i{
+    font-size: 1.3rem;
+}
+.card-article:hover .card-profile{
+    transform: scale(.8);
+    opacity: 0.8;
+}
+.card-article:hover .card-tooltip{
+    opacity: 1;
+    pointer-events: initial;
+    bottom: 4rem;
+}
+
+@media screen and (min-width:440px){
+    .card-content{
+        width: 380px;
+        padding:2rem;
+    }
+}
