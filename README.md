@@ -4,11 +4,10 @@ This repository contains three different card designs implemented with HTML and 
 
 ## Table of Contents
 
-1. [Card 1](#card-1)
-2. [Card 2](#card-2)
-3. [Card 3](#card-3)
-4. [Installation](#installation)
-5. [Usage](#usage)
+1. Card 1
+2. Card 2
+3. Card 3
+4. Installation 
 
 ## Card 1: Hover Animations & Image Effects
 
@@ -67,8 +66,5 @@ To view these card designs, you can clone or download the repository. Each card 
 1. Clone this repository or download the files.
 2. Open the `card1.html`, `card2.html`, or `card3.html` files in your browser.
 
-## Usage
-
-You can use these cards as templates for your personal projects. Customize the HTML content, images, and text to suit your needs.
 
 
