@@ -24,7 +24,7 @@ Card 1 showcases a collection of scenic images, each paired with descriptive tex
 - CSS: `style.css`
 
 ### Preview:
-![Card 1 Preview](./Preview/card1.png) *(Optional: Add a screenshot of Card 1)*
+![Card 1 Preview](./Preview/card1.png) 
 
 ## Card 2: Profile Card with Social Links
 
@@ -40,7 +40,7 @@ Card 2 presents a profile card design with a circular profile image, user detail
 - CSS: `style.css`
 
 ### Preview:
-![Card 2 Preview](./Preview/card2.png) *(Optional: Add a screenshot of Card 2)*
+![Card 2 Preview](./Preview/card2.png) 
 
 ## Card 3: Social Profile Card with Tooltip
 
@@ -56,7 +56,7 @@ Card 3 provides a social profile card with a unique tooltip that appears when ho
 - CSS: `style.css`
 
 ### Preview:
-![Card 3 Preview](./Preview/card3.png) *(Optional: Add a screenshot of Card 3)*
+![Card 3 Preview](./Preview/card3.png) 
 
 ## Installation
 
