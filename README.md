@@ -40,7 +40,7 @@ Card 2 presents a profile card design with a circular profile image, user detail
 - CSS: `style.css`
 
 ### Preview:
-![Card 2 Preview](./Preview/card2.png) 
+![Card 2 Preview](./Preview/c.png) 
 
 ## Card 3: Social Profile Card with Tooltip
 
