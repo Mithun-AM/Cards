@@ -18,10 +18,6 @@ Card 1 showcases a collection of scenic images, each paired with descriptive tex
 - Reveal hidden text on hover
 - Responsive layout for different screen sizes
 
-### Files:
-- HTML: `card1.html`
-- CSS: `style.css`
-
 ### Preview:
 ![Card 1 Preview](./Preview/card1.png) 
 
@@ -34,9 +30,6 @@ Card 2 presents a profile card design with a circular profile image, user detail
 - Social media icons with hover effects
 - Action buttons for "Subscribe" and "Message"
 
-### Files:
-- HTML: `card2.html`
-- CSS: `style.css`
 
 ### Preview:
 ![Card 2 Preview](./Preview/c.png) 
@@ -50,9 +43,6 @@ Card 3 provides a social profile card with a unique tooltip that appears when ho
 - Tooltip with social media links
 - Responsive design and smooth animation
 
-### Files:
-- HTML: `card3.html`
-- CSS: `style.css`
 
 ### Preview:
 ![Card 3 Preview](./Preview/card3.png) 
@@ -64,7 +54,7 @@ To view these card designs, you can clone or download the repository. Each card 
 ### Steps:
 
 1. Clone this repository or download the files.
-2. Open the `card1.html`, `card2.html`, or `card3.html` files in your browser.
+2. Open the `index.html`, `index.html`, or `index.html` files in your browser.
 
 
 
